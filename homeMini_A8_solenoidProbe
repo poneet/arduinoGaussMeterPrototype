@@ -1,0 +1,16 @@
+void setup() {
+  //Serial.begin(9600);
+}
+
+void loop() {
+
+  int A8_read = analogRead(8);
+  int f = 400 + (A8_read/10);
+  if (f > 480 || f < 400) { tone(7,f);
+  } else { tone(7,0); }
+
+  //Serial.print("Hz: ");
+  //Serial.println(f);
+
+  delay(1);
+}
