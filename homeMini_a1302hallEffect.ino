@@ -1,6 +1,6 @@
 /*
  * 
- * Hall Effect Sensor 
+ * Hall Effect Sensor Toy
  * a1302 ratiometric B field
  *
 */
