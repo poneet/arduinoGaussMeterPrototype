@@ -30,11 +30,8 @@ int a1302_allegroPolarity = 0;                   // init determined below
 #define analogVoltageResolution 1023
 String a1302_allegroPolarityString = "";         // init determined below
 
-const int VMA309_A = 7;
-
 void setup() {
 }
-
 void loop() {
   //
   //   _______
