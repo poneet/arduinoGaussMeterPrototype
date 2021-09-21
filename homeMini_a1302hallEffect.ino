@@ -18,7 +18,7 @@ float a1302_deltaVoltage = 0;        // from quiescent voltage
 
 // Determined by specifications provided by Allegro Microsystems (likely not accurate for all a1302 sensors).
 // REFERENCE: http://robotics.itee.uq.edu.au/~elec3004/laboratories/LeviLab/Hall%20Effect%20Sensor%20A1301-2-Datasheet.pdf
-#define a1302_allegroSENSITIVITY (1.3/1000)*0.2  // Volts per Gauss (p.4) with a 0.2 eyeball correction for this version using Velleman vma313 sensor (30G trigger)
+#define a1302_allegroSENSITIVITY (1.3/1000)*0.2  // Volts per Gauss (p.4) with a 0.2 eyeballed transduction proportionality constant correction for this version using a Velleman vma313 sensor (30G trigger)
 int a1302_allegroGauss = 0;                      // Calculated Below
 int a1302_allegroPolarity = 0;                   // init determined below
 
